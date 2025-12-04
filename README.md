@@ -15,23 +15,23 @@ We implement and evaluate models under **Closed-world** and **Open-world** setti
 ```
 📦 ML_DATAMIND
 ├── Closed_World/
-│   └── closed_scenario.ipynb        # Random Forest training & evaluation (Closed-world)
+│   └── closed_scenario.ipynb                   # Random Forest training & evaluation (Closed-world)
 │
 ├── Data_Preprocessing/
 │   ├── Burst_Feature_Extraction.ipynb
-│   ├── Burst_Feature_Extraction_final.ipynb   # final version
+│   ├── Burst_Feature_Extraction_final.ipynb    # final version
 │   ├── Cumulative_Feature_Extraction.ipynb
 │   ├── InOut_Feature_Extraction.ipynb
 │   ├── InOut_Feature_Extraction_final.ipynb    # final version
-│   └── Features_Concat.ipynb    # ⚠️ Run this last to merge all features
+│   └── Features_Concat.ipynb                   # ⚠️ Run this last to merge all features
 │
 ├── Dataset/
 │   ├── features_burst/inout/cum_mon/unmon.npy  # Feature Extraction Result
-│   ├── X/y_train/test_cw.npy # Closed-world preprocessed data
-│   ├── X/y_train/test_bin.npy # Open-world binary data
-│   └── X/y_train/test_mc.npy  # Open-world multi-class data
+│   ├── X/y_train/test_cw.npy                   # Closed-world preprocessed data
+│   ├── X/y_train/test_bin.npy                  # Open-world binary data
+│   └── X/y_train/test_mc.npy                   # Open-world multi-class data
 │
-├── Open_Binary/               # Tuned versions for comparison
+├── Open_Binary/                                # Tuned versions for comparison
 │
 ├── Open_Multi-Class/
 │   ├── multiclass_train.ipynb
